@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css?family=Acme|Lobster|Patua+One|Rubik|Sniglet");
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  :root {
+    --Sniglet-font: "Sniglet", cursive;
+    --Rubik: "Rubik", cursive;
+    --Patua: "Patua One", cursive;
+    --Lobster: "lobster", cursive;
+    --light-black: #2e2c2caf;
+    --bggradient: linear-gradient(to bottom, #dd2476, #ff512f);
+    --light-gray: rgba(255, 255, 255, 0.877);
+  }
+  h2  {
+    font-family: "Rubik", sans-serif;
+    font-size: 35px;
+  }
+
+  .ft {
+    font-family: "Rubik", sans-serif;
+    font-weight: bold;
+  }
+  .content-table {
+    border-collapse: collapse;
+    width: 70%;
+    margin: 25px 0;
+    font-family: "Rubik", sans-serif;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  }
+  
+  .content-table thead tr {
+    background-color: rgba(0, 0, 0, 0.767);
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+    height: 50px;
+  }
+
+  
+  .content-table th,
+  .content-table td {
+    padding: 12px 15px;
+  }
+  
+  .content-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+  }
+  
+  .content-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+  }
+  
+  .content-table tbody tr:last-of-type {
+    border-bottom: 2px solid black;
+  }
+  
+  .content-table tbody tr.active-row {
+    font-weight: bold;
+    color: #681b3e ;
+  }
+  
+  .fa-bars {
+    color: black !important;
+    font-size: 40px !important;
+  }
+    a {
+    font-family: "Rubik", sans-serif;
+    font-size: 0.9em;
+    color: black !important;
+  }
+  .navbar-toggler {
+    border: 0 !important;
+    outline: none !important;
+    padding: initial !important;
+  }
+  
+  .nav-item {
+    margin-left: 40px;
+    margin-bottom: 10px;
+  }
+.nav-link {
+    color: black;
+    font-size: 17px;
+    padding: 0 0 5px 0 !important;
+    display: unset !important;
+  }
+  
+  
+  .nav-link:hover {
+    color: black;
+  }
+
+
+
+  .message-wrapper {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .message {
+    padding: 15px 40px;
+    background-color: #5dca88 !important;
+    cursor: pointer;
+    box-shadow: 0 7px #1a7940;
+  }
+  
+  .message:active {
+    position: relative;
+    top: 7px;
+    box-shadow: none;
+  }
+
+  @media only screen and (orientation: portrait){
+    *{
+      letter-spacing: 1px;
+    }
+  }
+
+  button:focus {
+    outline: none !important;
+  }
